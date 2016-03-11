@@ -1,0 +1,137 @@
+.bk1{
+	background-color: #BDBDBD;
+	background-size: 100%;
+}
+li>a{
+	color: black;
+	text-decoration-color: none;
+}
+.mgt-5 {
+	margin-top:5%; 
+}
+.mgb-5{
+	margin-bottom: 5%;
+}
+.dis1{
+	display: inline-block;
+	float: right;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+/*..................formato de letras........................*/
+.uno{
+	color: #767575;
+	font-size: 9px;
+}
+.dos{
+	font-size: 12px;
+	color: #767575;
+}
+.tres{
+	font-size: 11px;
+	text-decoration: underline;
+}
+.cuatro{
+	color: #767575;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.ima1{		/*..tamano de la imagen del recuadro gris..*/
+	max-width: 100%;
+	min-height: 80%;
+	margin-bottom: 5%;
+}
+
+/*............................................................*/
+
+@media (max-width: 600px){
+	/* .tam1{
+		width: 100%;
+		height: 75px;
+	} */
+	.txt1{			/*..propiedades del menu superior der del usuario..*/
+		display: inline-block;
+		float: left;
+		position: relative;
+		padding-left: 8px;
+		margin-top: 11%;
+	}
+	.cuad{			/*..cuadro gris de 'historia destacada..*/'
+		width: 100%;
+		height: 100%;
+		background-color: #8D8C8C;
+		color: white;
+		padding: 10px;
+		margin: 10px 0px;
+		
+	}
+	.fot1{		/*..palabra foto en el recuadro gris..*/
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 43%;
+	font-size: 20px;
+	text-align: center;
+	}
+	.cuad2{			/*..cuadro gris de 'historia destacada..*/'
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		color: white;
+		padding: 1%;
+		text-align: center;
+	}
+}
+.navbar-header button {
+	border: transparent;
+}
+.cuadro-gris {
+	width: 100%;
+	height: 450px;
+	background-color: #eee;
+
+}
+.cuadro-video {
+	background-color: white;
+	border: 1px solid black;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.navegador {
+	position: absolute;
+	bottom: 0;
+	background-color: #333;
+	width: 100%;
+	height: 50px;
+}
+.fa {
+	position: absolute;
+	color: white;
+	padding: 20px 40px;
+}
+.navegador .fa-volume-up {
+	position: absolute;
+	right: 20px;
+}
+.navegador .fa-circle {
+	position: absolute;
+	left: 200px;
+}
+.navegador hr {
+	margin-top: 25px;
+	width: 50%; 
+}
+.cuad-agenda{	
+		width: 100%;
+		height: 100%;
+		background-color: #8D8C8C;
+		color: black;
+		padding: 10px 20px;
+		margin: 10px 0px;
+}
+
